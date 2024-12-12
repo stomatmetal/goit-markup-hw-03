@@ -115,12 +115,11 @@ a {
 .hero {
   background-color: #2e2f42;
   display: block;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
   margin: 0 auto;
-  padding-top: 188px;
   margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
@@ -128,7 +127,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -143,7 +142,7 @@ a {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   cursor: pointer;
 }
